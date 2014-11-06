@@ -10,6 +10,7 @@
     "url": "git://github.com/travishorn/npm-package-store.git"
   },
   "scripts": {
+    "prestart" : "npm install",
     "start": "node app"
   },
   "dependencies": {
